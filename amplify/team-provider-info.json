@@ -1,0 +1,15 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mvpuqhackathon-master-222542-authRole",
+            "UnauthRoleArn": "arn:aws:iam::528070948916:role/amplify-mvpuqhackathon-master-222542-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::528070948916:role/amplify-mvpuqhackathon-master-222542-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-mvpuqhackathon-master-222542-deployment",
+            "UnauthRoleName": "amplify-mvpuqhackathon-master-222542-unauthRole",
+            "StackName": "amplify-mvpuqhackathon-master-222542",
+            "StackId": "arn:aws:cloudformation:us-east-2:528070948916:stack/amplify-mvpuqhackathon-master-222542/21a54200-cf3b-11ea-b24f-0a8046302794",
+            "AmplifyAppId": "d1sxysvs9mh6c0"
+        }
+    }
+}
