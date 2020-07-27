@@ -22,6 +22,7 @@ import renee from "assets/img/faces/renee.jfif";
 import james from "assets/img/faces/james.png";
 import xin from "assets/img/faces/xin.jfif";
 import silvie from "assets/img/faces/silvie.jfif";
+import candice from "assets/img/faces/candice.jfif";
 
 const useStyles = makeStyles(styles);
 
@@ -112,7 +113,7 @@ export default function TeamSection() {
             <GridItem xs={12} sm={12} md={4}>
                 <Card plain>
                     <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                        <img src={renee} alt="..." className={imageClasses} />
+                        <img src={candice} alt="..." className={imageClasses} />
                     </GridItem>
                     <h4 className={classes.cardTitle}>
                         Candice

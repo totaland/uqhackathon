@@ -10,6 +10,7 @@ import Components from "views/Components/Components.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import MapPage from 'views/MapPage/MapPage';
+import DashboardPage from "./pages/DashboardPage";
 import MarkerPopUp from "./views/MapPage/MarkerPopUp";
 var hist = createBrowserHistory();
 
@@ -18,7 +19,7 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/" component={LandingPage} />
       <Route path="/map-page" component={MapPage} />
-      <Route path="/dashboard-page" component={MarkerPopUp} />
+      {/*<Route path="/dashboard-page" component={DashboardPage} />*/}
       <Route path="/login-page" component={LoginPage} />
       <Route path="/landing-page" component={Components} />
     </Switch>
